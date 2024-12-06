@@ -1,0 +1,1 @@
+SELECT * FROM `my-1st-project-443619.schema.inscritos`
