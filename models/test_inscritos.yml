@@ -1,0 +1,32 @@
+version: 1
+
+models:
+  - name: inscritos
+    description: "nome e idade dos inscritos"
+    columns:
+      - name: nome
+        description: "nome dos inscritos"
+        tests:
+          - not_null
+      - name: age
+        description: "idade dos inscritos"
+        tests:
+          - not_null
+
+  - name: stage_inscritos
+    description: "dados de inscritos tarsnformados"
+    columns:
+      - name: maiority
+        description: "idade maior que 21 anos"
+        tests:
+          - not_null
+
+  - name: analise_inscritos
+    description: "dados de inscritos tarsnformados"
+    columns:
+      - name: maiority
+        description: "agrupamento de inscritos por maior idade"
+#          tests:
+#            - accepted_values: [true, false]
+#            - quote: false
+
