@@ -26,7 +26,7 @@ models:
     columns:
       - name: maiority
         description: "agrupamento de inscritos por maior idade"
-#          tests:
+#        tests:
 #            - accepted_values: [true, false]
 #            - quote: false
 
